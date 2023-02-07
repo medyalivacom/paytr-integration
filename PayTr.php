@@ -440,7 +440,7 @@ class PayTr
         return $this->token;
       }
       else {
-        die("PAYTR IFRAME connection error. err:".$e);
+        die("PAYTR IFRAME connection error. err:".$result);
       }
     }
 }
